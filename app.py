@@ -5,7 +5,7 @@ from transformers import BertTokenizer, BertForSequenceClassification
 # ==============================
 # Load model + tokenizer
 # ==============================
-MODEL_PATH = "./bert-fakenews-model"  # change if needed
+MODEL_PATH = "./bert-fakenews-model-updated"  # change if needed
 
 @st.cache_resource
 def load_model():
